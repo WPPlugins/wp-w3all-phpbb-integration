@@ -1,0 +1,34 @@
+<?php
+/**
+ * The default basic template to display content for WP_w3all forum
+ * @package WordPress
+ * @subpackage wp_w3all
+ */
+// START DO NOT MODIFY
+if( preg_match('/[^0-9]/',$_GET["forum_id"]) OR preg_match('/[^0-9]/',$_GET["post_id"])){
+	
+	unset($_GET);
+} 
+
+$w3all_url_to_cms  = get_option( 'w3all_url_to_cms' );
+
+  if (isset($_GET["forum_id"])){
+    $uapp = "/viewtopic.php?f=".$_GET["forum_id"]."&amp;p=".$_GET["post_id"]."#p".$_GET["post_id"]."";
+    $w3all_url_to_cms = $w3all_url_to_cms . $uapp;
+  } 
+// END DO NOT MODIFY
+
+// Normal default WordPress page
+
+get_header(); ?>
+
+<iframe src="<?php echo $w3all_url_to_cms ?>" style="width:100%;min-height:950px;border:0px;overflow:hidden;" 
+scrolling="no"
+marginheight="0"
+marginwidth="0">
+   <p>Your browser does not support iframes. You can <a href="<?php echo get_option( 'w3all_url_to_cms' ) ?>">load full forum page here.</a></p>
+</iframe>
+	
+
+<?php get_footer(); ?>
+ 

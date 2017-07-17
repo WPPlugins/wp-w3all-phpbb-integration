@@ -1,0 +1,482 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp-w3all-phpbb-integration\n"
+"POT-Creation-Date: 2017-03-31 12:07+0100\n"
+"PO-Revision-Date: 2017-03-31 12:07+0100\n"
+"Last-Translator: wp-w3all-phpbb <mail@axew3.com>\n"
+"Language-Team: wp-w3all <mail@wordpress.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.5\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;esc_html_e;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: class.wp.w3all-admin.php:11 class.wp.w3all-admin.php:32
+#: class.wp.w3all-admin.php:46
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: class.wp.w3all.widgets-phpbb.php:10
+msgid "WP phpBB w3all Login"
+msgstr ""
+
+#: class.wp.w3all.widgets-phpbb.php:11
+msgid "Display the widget WP phpBB login form"
+msgstr ""
+
+#: class.wp.w3all.widgets-phpbb.php:30
+#: views/login_form_include_iframe_mode_links.php:12
+#: views/login_form_include_iframe_mode_links.php:17
+#: views/login_form_include_noiframe_mode_links.php:17
+msgid "Login"
+msgstr ""
+
+#: class.wp.w3all.widgets-phpbb.php:31
+#: views/login_form_include_iframe_mode_links.php:35
+#: views/login_form_include_noiframe_mode_links.php:34
+msgid "Logout"
+msgstr ""
+
+#: class.wp.w3all.widgets-phpbb.php:35
+msgid "Text for login:"
+msgstr ""
+
+#: class.wp.w3all.widgets-phpbb.php:39
+msgid "Text for logout:"
+msgstr ""
+
+#: class.wp.w3all.widgets-phpbb.php:43
+msgid "Display phpBB user's info on Login Widget if user logged in?"
+msgstr ""
+
+#: class.wp.w3all.widgets-phpbb.php:44 class.wp.w3all.widgets-phpbb.php:116
+#: views/config.php:123 views/config.php:128 views/config.php:132
+#: views/config.php:137 views/config.php:153 views/config.php:157
+#: views/config.php:194
+msgid "No"
+msgstr ""
+
+#: class.wp.w3all.widgets-phpbb.php:45 class.wp.w3all.widgets-phpbb.php:117
+#: views/config.php:122 views/config.php:127 views/config.php:131
+#: views/config.php:136 views/config.php:152 views/config.php:156
+#: views/config.php:193
+msgid "Yes"
+msgstr ""
+
+#: class.wp.w3all.widgets-phpbb.php:79
+msgid "WP phpBB w3all Last Topics"
+msgstr ""
+
+#: class.wp.w3all.widgets-phpbb.php:80
+msgid "Display the widget WP phpBB last forums topics"
+msgstr ""
+
+#: class.wp.w3all.widgets-phpbb.php:101
+msgid "Last Topics Posts"
+msgstr ""
+
+#: class.wp.w3all.widgets-phpbb.php:107
+msgid "Title:"
+msgstr ""
+
+#: class.wp.w3all.widgets-phpbb.php:111
+msgid "Number of last topics to display:"
+msgstr ""
+
+#: class.wp.w3all.widgets-phpbb.php:115
+msgid "Display listed topics with post text?"
+msgstr ""
+
+#: class.wp.w3all.widgets-phpbb.php:121
+msgid ""
+"Number of text words to display for each listed topic on this widget (affect "
+"only if above option is active)."
+msgstr ""
+
+#: views/config.php:42
+msgid ""
+"<h3 style=\"color:#ff0000\">WARNING!<span style=\"color:#000\"> Wp w3all "
+"miss phpBB configuration file (or you have the phpBB config.php not well "
+"configured):</span><br /><br /></h3>"
+msgstr ""
+
+#: views/config.php:43
+msgid ""
+"<h3 style=\"color:#ff0000\">Set the correct full ABSOLUTE PATH to phpBB "
+"config.php folder!</h3>"
+msgstr ""
+
+#: views/config.php:44
+msgid ""
+"<h3 style=\"color:#ff0000\">Notice: <span style=\"color:green\">WP_w3all for "
+"subdomains installations.</span> Use the manual config option. If you choose "
+"to include/use the phpBB config.php and result impossible to correctly setup "
+"the wp_w3all config path<br />please read this <a target=\"_blank\" href="
+"\"http://www.axew3.com/w3/2016/03/how-to-disable-open_basedir-for-subdomain-"
+"file-inclusion/\">post about files inclusions restrictions</a>, when in php."
+"ini file is set the open_basedir directive</h3>"
+msgstr ""
+
+#: views/config.php:58
+msgid ""
+"<h2 style=\"color:#ff0000\">Error: please choose and set the correct name "
+"for template page. Available valid names are:<br /><i style=\"color:"
+"#000\">board, boards, community, forum, forums</i><br />The page name <i "
+"style=\"color:#000\">forum</i> has been created. You can repeat the process "
+"if you like another name.<br />Now it is necessary to create a blank "
+"WordPress page titled/named the same as you set this value.</h2>"
+msgstr ""
+
+#: views/config.php:87
+msgid "WP_w3all Path and Url configuration</h1>"
+msgstr ""
+
+#: views/config.php:92
+msgid ""
+"<b>Note:</b> This is the most important setting, the absolute path to a "
+"phpBB <i>config.php</i> file, that can be the <b>phpBB root <i>config.php</"
+"i> file</b> or a <b>custom <i>config.php</i> file</b> on a custom folder.  \n"
+"WP_w3all require a correct <i>config.php</i> file to work: you can setup "
+"here the path to include the <b>root phpBB config.php file</b> OR a "
+"<b>manual edited custom config.php file</b>. Manual custom config.php has "
+"been introduced to get WP_w3all easy to be installed on subdomains, and for "
+"compatibility issues about some external plugin that seem to conflict with "
+"phpBB vars names as are on a <i>phpBB root config.php</i> default file: "
+"<b>it isn't strictly required</b>, but some external images plugin for "
+"example, require to choose manual custom config.php on WP_w3all to work as "
+"expected. \n"
+"<br /><br /><b>Manual custom config.php and path to config.php how to</b>: "
+"you can choose to use/include an <b>edited custom config.php file</b> OR the "
+"<b>phpBB root config.php</b> file. If you choose to use/include, the manual "
+"edited custom <i>config.php</i>, set the correct path to it after you have "
+"complete this easy procedure:\n"
+"<br /><b><a href=\"http://www.axew3.com/w3/2016/09/how-to-setup-wp_w3all-"
+"manual-phpbb-config-php-file-and-path/\" target=\"_blank\">How to setup "
+"custom manual config.php and set correct path</a></b>\n"
+"\n"
+"<br /><br /><b>Skip custom manual config.php, setup path to phpBB root "
+"config.php how to</b>: <b><a href=\"http://www.axew3.com/w3/index.php/forum/?"
+"viewforum=7&viewtopic=61\" target=\"_blank\">Path config how to</a></b>\n"
+"\n"
+"<br /><br />Path Example for manual custom WP_w3all phpBB config.php: <i>/"
+"web/htdocs/home/wp-content/plugins/<b>wp-w3all-config</b></i>\n"
+"<br /><br />Path Example for config.php on phpBB root folder: <i>/web/htdocs/"
+"home/<b>forum</b></i>\n"
+"<br /><br />If you have choose to include/use the custom <i>wp-content/"
+"plugins/wp-w3all-config/<b>config.php</b></i> file, <b>edit it</b> before to "
+"apply the path value to file's folder here\n"
+"<br />"
+msgstr ""
+
+#: views/config.php:103
+msgid "(REQUIRED)"
+msgstr ""
+
+#: views/config.php:103
+msgid ""
+"Absolute path to config.php file on <b><i>wp-content/plugins/wp-w3all-"
+"config</i></b> OR phpBB root folder</b> - NOTE: do NOT add final slash '/' "
+"here"
+msgstr ""
+
+#: views/config.php:106
+msgid ""
+" <b>(REQUIRED) </span> URL</b> &nbsp;- Real phpBB URL - NOTE: do NOT add "
+"final slash '/' here. <strong>Example</strong>: http://www.axew3.com/forum"
+msgstr ""
+
+#: views/config.php:108
+msgid "Save WP_w3all configuration"
+msgstr ""
+
+#: views/config.php:117
+msgid "Exclude phpBB forums from listing on Last Topics Posts"
+msgstr ""
+
+#: views/config.php:118
+msgid ""
+"Comma separated, phpBB forums ID to be excluded from w3all Last Topics Posts "
+"widget</label><br /><b>Note</b>: if string contain a different sequence than "
+"<b>NumberCommaNumber</b> the option will not work (or return error inside "
+"the front end widget) <b>Correct example: 2,3,7,12,20</b>"
+msgstr ""
+
+#: views/config.php:120
+msgid ""
+"<h3>Deactivate phpBB user account until WP confirmation</h3>If this option "
+"is set to Yes, users are added in phpBB as <b><i>deactivated</i></b> when "
+"they register on WordPress. The phpBB user account will be <b><i>activated</"
+"i></b> only after his first login on WordPress. Normally it is not necessary "
+"and all will work as expected with users that you want to approve, before to "
+"be activated in WP/phpBB, but in case you can force this behavior by setting "
+"to yes this option."
+msgstr ""
+
+#: views/config.php:121
+msgid ""
+"<br /><br /><b>Note</b>: this work only with default WP registration system "
+"where WP send an email link to set first user's password, that user do not "
+"know at this time. If you have install an external registration plugin that "
+"let choose the password to the user on register, than this option may will "
+"not affect. If your registration plugin provide option to let choose "
+"password or not on register for users, than set no the option, and all here "
+"should work as expected about WP/phpBB account confirmation/activation."
+msgstr ""
+
+#: views/config.php:125
+msgid ""
+"<h3>Activate notify Read/Unread Topics/Posts into Last Topics widgets </"
+"h3>Set to <b>Yes</b>, to notify on Last Topics Widgets if listed topics are "
+"<i>read</i> or <i>unread Topics/Posts</i> on phpBB. This will affect only "
+"registered users."
+msgstr ""
+
+#: views/config.php:129
+msgid ""
+"<h3>Activate notify Read/Unread Private Messages into Admin Tool Bar </"
+"h3>Display notification about new user's phpBB Private Messages into WP "
+"admin user's toolbar."
+msgstr ""
+
+#: views/config.php:135
+msgid ""
+"<h3>Activate WordPress to phpBB users transfer</h3>Once activated it will be "
+"visible in wordpress admin side menu under Settings Menu: when transfer has "
+"been finished, you can turn it off (and remove from admin side Settings "
+"Menu)."
+msgstr ""
+
+#: views/config.php:139
+msgid "Save WP_w3all Preferences"
+msgstr ""
+
+#: views/config.php:147
+msgid ""
+"<h3>Use phpBB avatar to replace WordPress user's avatar</h3>If set to Yes, "
+"Gravatars profiles images on WordPress, are replaced by phpBB user's avatars "
+"images, where an avatar's image is available in phpBB for the user. Return "
+"WP Gravatar of the user, if no avatar's image has been found in phpBB (one "
+"single fast query to get avatars for all users).\n"
+"<br /><b>Note</b>: you can activate only this option, if you do not want to "
+"display user's avatars on WP_w3all Last Forum Topics Widgets, but only on WP "
+"posts.\n"
+"<br /><b>If this option is set to No (not active) others avatar's options "
+"<i>Last Forums Topics widgets</i> here below, do not affect</b>.\n"
+"<br />Note about .htaccess: <b>\"i've setup avatar here, but avatar's images "
+"aren't displayed!\" ... please <a href=\"http://www.axew3.com/w3/2016/09/"
+"phpbb-htaccess-set-avatars-images-available-over-your-domain/\" target="
+"\"_blank\">take a look to this easy <i>why and how to resolve</i> post</a></"
+"b> before you activate this feature.\n"
+"<br />Check that on <i>WordPress Admin -> Settings -> Discussion</i> the "
+"setting about avatars is enabled. Check also that isn't set to BLANK this "
+"setting (if you do not want really it)."
+msgstr ""
+
+#: views/config.php:155
+msgid ""
+"<h3 style=\"color:#869eff\">Activate phpBB avatars on Last Forums Topics "
+"widgets</h3>Add avatars for each user on Last Forums Topics widget (add a "
+"query, for each loaded widget on page)"
+msgstr ""
+
+#: views/config.php:159
+msgid ""
+"<h3>Last Forums Topics Widget avatar's dimension</h3>Set the avatar "
+"dimension for Last Forum Topics Widget (Ex: 50).<br />Note: affect only if "
+"the above <i style=\"color:#869eff\">Activate phpBB avatars on Last Forums "
+"Topics widgets</i> option is set to yes"
+msgstr ""
+
+#: views/config.php:162
+msgid ""
+"<h3>Last Forums Topics number of users's avatars to retrieve</h3><b>Notice</"
+"b>: if not set, 10 by default, but this value should be set the same as is "
+"the most hight value, of topic's numbers you have choose to display on Last "
+"Topics Widgets, for example:<br />if activating different Last Forums Topics "
+"widgets, you have choose to display 5 topics in one widget instance, and 10 "
+"topics in another, than set 10 as value here.<br />Note: affect only if the "
+"above <i style=\"color:#869eff\">Activate phpBB avatars on Last Forums "
+"Topics widgets</i> option is set to yes"
+msgstr ""
+
+#: views/config.php:166
+msgid "Save WP_w3all Avatars Options"
+msgstr ""
+
+#: views/config.php:174
+msgid ""
+"<h4 style=\"color:#333\">Before you activate this option, <b><a href="
+"\"http://www.axew3.com/w3/2016/02/embed-phpbb-into-wordpress-template-iframe-"
+"responsive/\" target=\"_blank\">please read this article</a></b><br />it is "
+"necessary to edit the phpBB overall_footer.html template file, and to add "
+"the \"iframeResizer.contentWindow.min.js\" file into phpBB root folder.\n"
+"<br />Note: you can completely ignore this part about using iframe mode and "
+"use wp_w3all without embed phpBB template in a WP page.<br />Please remember "
+"about widgets login/out and last post: activate this option if you use the "
+"iframe mode, deactivate if you are not going to be using the WP_w3all iframe "
+"mode, or widget links will points to wrong urls (page name option not "
+"affected)</h4></div>\n"
+"<div class=\"\"><h3>Create or rebuild WordPress forum page template</h3>"
+msgstr ""
+
+#: views/config.php:177
+msgid ""
+" Valid names to be used are: <b>board, boards, community, forum, forums</b>. "
+"Do not use different terms or <i>page-<b>forum</b>.php</i> will be created "
+"by default.<br />\n"
+"<br />This option set the name of (and create) the page template that will "
+"embed the phpBB forum iframe on WordPress.<br />It is required to create a "
+"new BLANK page on WordPress (WP admin -> Pages -> Add New), with the same "
+"title as set here that will contain the embedded iframe phpBB  forum on "
+"WordPress. Ex: if you entered \"board\" as the value you will need to create "
+"a new page in wp named board. Open this page after to see your embedded "
+"phpbb forum in WP.\n"
+"<br /><br />The created template file will be located inside your WordPress "
+"<b>wp-content/themes/yourtheme</b> template folder. It can be edited as any "
+"other WordPress template page.\n"
+"<br /><br />The template file name to search for, inside the active theme, "
+"template directory, can be: <b>page-forum.php</b> or <b>page-board.php</b>, "
+"and so on, depending on how you set the value here.<br />\n"
+"<b>Note:</b> if there is not a created <i>page-forum(or board etc).php</i> "
+"file into your active Wp template folder, manually copy it in <i>plugins/wp-"
+"w3all-phpbb-integration/addons</i> and paste Or upload into your WP template "
+"folder. Rename it as needed if necessary (so into <i>page-board.php</i> if "
+"you set <i>board</i> as name here).<br />\n"
+"<b>Note:</b> the page name here is a required value to be set for iframe "
+"mode (as well you need to create a blank page in <i>WP -> pages -> Add New</"
+"i>).\n"
+"\n"
+"<br /><br /><b>Warning (for on same domain installations)</b>: if your forum "
+"folder is located on a sub-folder on the same WP root, like <b>wordpress/"
+"forum</b></i> in this case it is required to choose a different name than "
+"<i>forum</i> for the template page to be created here. If not, WordPress "
+"will point to the existent <i>forum folder</i> and will return content not "
+"found. It is a normal WP behavior.\n"
+"<br /><br /><b>Warning</b>: Any click on \"Create WP_w3all phpBB Page "
+"Template\" button, will replace the template page with the default content "
+"file: the previous created template page will be removed and substituted "
+"with the default content file. In case you made modifications to the "
+"template page after its his creation, and that you do not want to lose, you "
+"should rename or move the template file in some different folder than the "
+"theme template folder, before you click on \"Create WP_w3all phpBB Page "
+"Template\" button.</p>"
+msgstr ""
+
+#: views/config.php:186
+msgid "Create/Rebuild WP_w3all phpBB Page Template"
+msgstr ""
+
+#: views/config.php:191
+msgid ""
+"Last Topics and Login widgets links for embedded phpBB iframe into WordPress"
+msgstr ""
+
+#: views/config.php:192
+msgid ""
+"Changes the links for wp_w3all Last Topics Post and wp_w3all Login widgets "
+"to embedded page:<br />if set to Yes, it changes the links on <i>Last Topics "
+"Posts Widget and Login/out links</i> that will point to the created WP page "
+"that contain the embedded phpBB forum iframe, if set to No it will link to "
+"the real phpbb URL/folder."
+msgstr ""
+
+#: views/config.php:195
+msgid "Save Last Topics and Login/Out widgets links for Embedded Template"
+msgstr ""
+
+#: views/login_form_include_iframe_mode_links.php:12
+#: views/login_form_include_noiframe_mode_links.php:12
+msgid "Register"
+msgstr ""
+
+#: views/login_form_include_iframe_mode_links.php:13
+#: views/login_form_include_noiframe_mode_links.php:13
+msgid "Username:"
+msgstr ""
+
+#: views/login_form_include_iframe_mode_links.php:14
+#: views/login_form_include_noiframe_mode_links.php:14
+msgid "Password:"
+msgstr ""
+
+#: views/login_form_include_iframe_mode_links.php:15
+#: views/login_form_include_noiframe_mode_links.php:15
+msgid "I forgot my password"
+msgstr ""
+
+#: views/login_form_include_iframe_mode_links.php:16
+#: views/login_form_include_noiframe_mode_links.php:16
+msgid "Remember me"
+msgstr ""
+
+#: views/login_form_include_iframe_mode_links.php:27
+#: views/login_form_include_noiframe_mode_links.php:26
+msgid "Hello "
+msgstr ""
+
+#: views/login_form_include_iframe_mode_links.php:28
+#: views/login_form_include_noiframe_mode_links.php:27 wp_w3all.php:425
+msgid "You have "
+msgstr ""
+
+#: views/login_form_include_iframe_mode_links.php:28
+#: views/login_form_include_noiframe_mode_links.php:27
+msgid " unread forum's pm"
+msgstr ""
+
+#: views/login_form_include_iframe_mode_links.php:29
+#: views/login_form_include_noiframe_mode_links.php:28
+msgid "Forum's posts count: "
+msgstr ""
+
+#: views/login_form_include_iframe_mode_links.php:30
+#: views/login_form_include_noiframe_mode_links.php:29
+msgid "Registered on: "
+msgstr ""
+
+#: views/phpbb_last_topics.php:2
+msgid "<b>Updated Topics on Forums</b>"
+msgstr ""
+
+#: views/phpbb_last_topics.php:34
+msgid "Guest"
+msgstr ""
+
+#: views/phpbb_last_topics.php:48 views/phpbb_last_topics.php:62
+#: views/phpbb_last_topics.php:77 views/phpbb_last_topics.php:81
+#: views/phpbb_last_topics.php:89 views/phpbb_last_topics.php:93
+msgid "by "
+msgstr ""
+
+#: views/phpbb_last_topics.php:48 views/phpbb_last_topics.php:52
+#: views/phpbb_last_topics.php:62 views/phpbb_last_topics.php:65
+#: views/phpbb_last_topics.php:77 views/phpbb_last_topics.php:81
+#: views/phpbb_last_topics.php:89 views/phpbb_last_topics.php:93
+msgid "at "
+msgstr ""
+
+#: views/phpbb_last_topics.php:52 views/phpbb_last_topics.php:65
+msgid "by"
+msgstr ""
+
+#: wp_w3all.php:285
+msgid ""
+"<strong>ERROR</strong>: provided email or username already exist on our "
+"forum database."
+msgstr ""
+
+#: wp_w3all.php:412
+msgid ""
+"<h3>Error: username or email already exist</h3> The username or/and email "
+"address provided already exist, or result associated, to another existent "
+"user account on our forum database.<br />"
+msgstr ""
+
+#: wp_w3all.php:412
+msgid "Please return back"
+msgstr ""
